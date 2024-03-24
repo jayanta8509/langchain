@@ -4,7 +4,7 @@ os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
 from langchain import HuggingFaceHub
 import streamlit as st
 
-st.title("🦜🔗")
+st.title("🦜Information Chat Bot")
 
 # Initialize chat history
 if "messages" not in st.session_state:
